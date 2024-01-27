@@ -184,8 +184,8 @@ bindsym $mod+r mode "resize"
 bar {
         position top
 	status_command /home/raved/.config/i3/bumblebee-status/bumblebee-status \
-		-m title network cpu memory amixer time \
-		-p time.format="%H:%M" \
+		-m title network cpu memory amixer date time \
+		-p date.format="%a, %b %d" time.format="%H:%M" \
 		-t iceberg
 
         colors {
@@ -206,7 +206,7 @@ new_float normal
 hide_edge_borders both
 
 # set desktop background
-exec_always feh --bg-fill /home/raved/Pictures/fantasy.png
+exec_always feh --bg-fill /home/raved/Pictures/bnw.png
 
 # class                 border  bground text    indicator child_border
 client.focused          #373C52 #373C52 #F8F8F2 #6272A4   #6272A4
@@ -218,5 +218,7 @@ client.background       #F8F8F2
 
 # lockscreen
 bindsym $mod+Shift+x exec --no-startup-id i3lock -c 000000
+
 # screenshot
 bindsym $mod+p exec --no-startup-id flameshot gui
+
