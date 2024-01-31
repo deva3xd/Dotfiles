@@ -185,18 +185,18 @@ bar {
         position top
 	status_command /home/raved/.config/i3/bumblebee-status/bumblebee-status \
 		-m title network cpu memory amixer date time \
-		-p date.format="%a, %b %d" time.format="%H:%M" \
-		-t iceberg
+		-p date.format="%a, %b %d" time.format="%H:%M" memory.format="{percent:05.02f}%" \
+		-t moonlight-powerline
 
         colors {
-                background #161821
+                background #212337
                 statusline #F8F8F2
                 separator  #44475A
-                focused_workspace  #E2A478 #E2A478 #161821
-                active_workspace   #282A36 #44475A #F8F8F2
-                inactive_workspace #161821 #161821 #F8F8F2
-                urgent_workspace   #FF5555 #FF5555 #F8F8F2
-                binding_mode       #FF5555 #FF5555 #F8F8F2
+                focused_workspace  #403c64 #403c64 #ffffff
+                active_workspace   #282A36 #44475A #ffffff
+                inactive_workspace #212337 #212337 #ffffff
+                urgent_workspace   #FF5555 #FF5555 #ffffff
+                binding_mode       #FF5555 #FF5555 #ffffff
         }
 }
 
