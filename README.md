@@ -1,7 +1,7 @@
 
 ## i3 Config
 
-![alt text](https://github.com/deva3xd/config/screenhot/desktop.png?raw=true)
+![alt text](https://github.com/deva3xd/config/blob/main/screenshot/desktop.png?raw=true)
 
 ## Requirements
 
