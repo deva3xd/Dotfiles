@@ -51,7 +51,7 @@ bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -184,8 +184,8 @@ bindsym $mod+r mode "resize"
 bar {
         position top
 	status_command /home/raved/.config/i3/bumblebee-status/bumblebee-status \
-		-m title network cpu memory amixer date time \
-		-p date.format="%a, %b %d" time.format="%H:%M" memory.format="{percent:05.02f}%" \
+		-m title cpu memory amixer date time \
+		-p date.format="%a, %b %d" time.format="%H:%M" memory.format="{percent:.01f}%" \
 		-t moonlight-powerline
 
         colors {
@@ -206,7 +206,7 @@ new_float normal
 hide_edge_borders both
 
 # set desktop background
-exec_always feh --bg-fill /home/raved/Pictures/bnw.png
+exec_always feh --bg-fill /home/raved/Pictures/wp.png
 
 # class                 border  bground text    indicator child_border
 client.focused          #373C52 #373C52 #F8F8F2 #6272A4   #6272A4
@@ -217,7 +217,7 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #ffffff
 client.background       #F8F8F2
 
 # lockscreen
-bindsym $mod+Shift+x exec --no-startup-id i3lock -c 000000
+bindsym $mod+Shift+x exec --no-startup-id i3lock -i ~/Pictures/ls.png
 
 # screenshot
 bindsym $mod+p exec --no-startup-id flameshot gui
