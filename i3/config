@@ -184,7 +184,7 @@ bindsym $mod+r mode "resize"
 bar {
         position top
 	status_command /home/raved/.config/i3/bumblebee-status/bumblebee-status \
-		-m title cpu memory amixer date time \
+		-m title cpu memory amixer date time system \
 		-p date.format="%a, %b %d" time.format="%H:%M" memory.format="{percent:.01f}%" \
 		-t moonlight-powerline
 
