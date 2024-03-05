@@ -9,3 +9,4 @@
 - bumblebee-status
 - feh
 - rofi
+- betterlockscreen
