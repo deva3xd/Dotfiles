@@ -9,4 +9,4 @@
 - bumblebee-status
 - feh
 - rofi
-- betterlockscreen
+- i3lock-fancy
