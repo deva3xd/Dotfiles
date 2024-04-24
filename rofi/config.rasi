@@ -2,7 +2,7 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "pango:monospace 10";
+  font: "pango:Ubuntu 10";
   modi: "window,run,drun";
   
   // enabling the icons
@@ -28,9 +28,9 @@ configuration {
 
 window {
   width: 30%;
-  background-color: @bg;
+  background-color: #ffff;
   border: 1;
-  border-radius: 5;
+  border-radius: 0;
 }
 
 element {
