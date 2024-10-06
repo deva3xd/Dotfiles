@@ -16,6 +16,7 @@
 - feh
 - rofi
 - i3lock-fancy
+- noto-fonts-cjk-vf
 - polybar (optional)
 
 ## Installation
