@@ -2,7 +2,7 @@
 ## i3 Config
 
 #### Bumblebee Status
-![Bumblebee Status](https://github.com/deva3xd/config/blob/main/screenshot/desktop.png?raw=true)
+![Bumblebee Status](https://github.com/deva3xd/config/blob/main/screenshot/bumblebee.png?raw=true)
 
 #### Polybar
 ![Polybar](https://github.com/deva3xd/config/blob/main/screenshot/polybar.png?raw=true)

@@ -163,6 +163,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# comment bar, if you want to using polybar, and uncomment for polybar in the last line
 bar {
         bindsym button4 nop
         bindsym button5 nop
