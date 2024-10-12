@@ -40,4 +40,5 @@ git clone https://github.com/deva3xd/Dotfiles.git
 ## Reference
 
 - Firefox: https://github.com/cascadefox/cascade/tree/main
+- Polybar: https://github.com/adi1090x/polybar-themes.git
 - Wallpaper: https://github.com/gh0stzk/dotfiles/tree/master
