@@ -12,24 +12,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #212337;
+    background-color: #1a1b26;
     background-size: cover;
     width: 100vw;
     height: 100vh;
     filter: blur(1px);
-  }
-
-  .logo {
-    display: none !important;
-  }
-
-  .wordmark,
-  .logo-and-wordmark {
-    margin: 0 !important;
-  }
-
-  .search-wrapper {
-    padding: 5 !important;
   }
 
   .search-handoff-button {

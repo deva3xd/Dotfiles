@@ -42,7 +42,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -163,28 +163,24 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# comment bar, if you want to using polybar, and uncomment for polybar in the last line
-bar {
-        bindsym button4 nop
-        bindsym button5 nop
-        tray_output none
-        position top
-	status_command /home/raved/.config/i3/bumblebee-status/bumblebee-status \
-		-m title cpu memory pipewire date time system \
-		-p date.format="%a, %b %d" time.format="%H:%M" memory.format="{percent:.01f}%" \
-		-t custom
+# bar {
+#         bindsym button4 nop
+#         bindsym button5 nop
+#         tray_output none
+#         position top
+#         status_command i3status 
 
-        colors {
-                background #1a1b26
-                statusline #F8F8F2
-                separator  #ffffff
-                focused_workspace  #222234 #222234 #ffffff
-                active_workspace   #282A36 #44475A #ffffff
-                inactive_workspace #1a1b26 #1a1b26 #ffffff
-                urgent_workspace   #FF5555 #FF5555 #ffffff
-                binding_mode       #FF5555 #FF5555 #ffffff
-        }
-}
+#         colors {
+#                 background #1a1b26
+#                 statusline #F8F8F2
+#                 separator  #ffffff
+#                 focused_workspace  #222234 #222234 #ffffff
+#                 active_workspace   #282A36 #44475A #ffffff
+#                 inactive_workspace #1a1b26 #1a1b26 #ffffff
+#                 urgent_workspace   #FF5555 #FF5555 #ffffff
+#                 binding_mode       #FF5555 #FF5555 #ffffff
+#         }
+# }
 
 # new window
 new_window none
@@ -218,4 +214,4 @@ bindsym $mod+p exec --no-startup-id flameshot gui
 exec_always --no-startup-id i3-auto-layout
 
 # polybar
-# exec_always ~/.config/polybar/launch.sh &
+exec_always ~/.config/polybar/launch.sh &

@@ -1,9 +1,6 @@
 
 ## i3 Config
 
-#### Bumblebee Status
-![Bumblebee Status](https://github.com/deva3xd/config/blob/main/screenshot/bumblebee.png?raw=true)
-
 #### Polybar
 ![Polybar](https://github.com/deva3xd/config/blob/main/screenshot/polybar.png?raw=true)
 
@@ -12,22 +9,21 @@
 
 ## Package
 
-- awesome-terminal-fonts (bumblebee-status)
+- polybar
 - feh
 - rofi
 - i3lock-fancy
 - noto-fonts-cjk-vf
-- polybar (optional)
 
 ## Installation
 
 #### Bar
-1. Install all package
+1. Install package
 2. Clone repository
 ```
 git clone https://github.com/deva3xd/Dotfiles.git
 ```
-3. Copy folder i3, rofi to `~/.config/`
+3. Copy folder i3, rofi, polybar to `~/.config/`
 4. Reboot or restart i3wm (by default use $mod+Shift+r)
 
 #### Firefox CSS
