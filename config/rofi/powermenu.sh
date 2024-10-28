@@ -1,20 +1,17 @@
 #!/bin/bash
 
-options="🔒 Lock Screen\n🔄 Sleep\n🔌 Shutdown\n🔄 Reboot"
+options="Shutdown\nReboot\nLock Screen"
 
 choice=$(echo -e "$options" | rofi -dmenu -p "Power Menu:")
 
 case "$choice" in
-    "🔒 Lock Screen")
-        i3lock-fancy
-        ;;
-    "🔄 Sleep")
-        systemctl suspend
-        ;;
-    "🔌 Shutdown")
+    "Shutdown")
         poweroff
         ;;
-    "🔄 Reboot")
+    "Reboot")
         reboot
+        ;;
+    "Lock Screen")
+        i3lock-fancy
         ;;
 esac

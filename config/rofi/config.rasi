@@ -3,7 +3,7 @@ configuration {
   display-window: "Windows:";
   drun-display-format: "{name}";
   font: "pango:Ubuntu 10";
-  modi: "window,run,drun";
+  modi: "drun";
   
   // enabling the icons
   show-icons: true;

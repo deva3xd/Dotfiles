@@ -1,7 +1,8 @@
 #!/bin/bash
+color="%{F#FFFFFF}"
 network_name=$(nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes' | cut -d':' -f2)
 if [ -z "$network_name" ]; then
-    echo "󰖪 Disconnected"
+    echo "${color}󰖪 Disconnected"
 else
-    echo "󰖩 $network_name"
+    echo "${color}󰖩 $network_name"
 fi

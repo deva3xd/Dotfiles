@@ -1,8 +1,8 @@
 
 ## i3 Config
 
-#### Polybar
-![Polybar](https://github.com/deva3xd/config/blob/main/screenshot/polybar.png?raw=true)
+#### Desktop
+![Desktop](https://github.com/deva3xd/config/blob/main/screenshot/desktop.png?raw=true)
 
 #### Firefox
 ![Polybar](https://github.com/deva3xd/config/blob/main/screenshot/firefox.png?raw=true)
