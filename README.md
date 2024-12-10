@@ -12,8 +12,8 @@
 - polybar
 - feh
 - rofi
-- i3lock-fancy
-- noto-fonts-cjk-vf
+- i3lock-fancy (i3lock)
+- noto-fonts-cjk-vf (optional)
 
 ## Installation
 
@@ -24,7 +24,8 @@
 git clone https://github.com/deva3xd/Dotfiles.git
 ```
 3. Copy folder i3, rofi, polybar to `~/.config/`
-4. Reboot or restart i3wm (by default use $mod+Shift+r)
+4. For each file .sh, give permission using `chmod +x file.sh`
+5. Reboot or restart i3wm (by default use $mod+Shift+r)
 
 #### Firefox CSS
 1. Type `about:config` into your URL bar. Click on the **I accept the risk** button if you're shown a warning
