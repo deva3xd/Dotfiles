@@ -32,6 +32,10 @@ set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 
+# Use brightnessctl to adjust brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10%-
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -194,7 +198,7 @@ gaps inner 2
 gaps outer 2
 
 # set desktop background
-exec_always feh --bg-fill ~/Pictures/wall-01.webp
+exec_always feh --bg-fill ~/Pictures/samurai-girl.jpg
 
 # class                 border  bground text    indicator child_border
 client.focused          #ffffff #403c64 #ffffff #ffffff   #ffffff
