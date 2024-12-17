@@ -219,3 +219,6 @@ exec_always --no-startup-id i3-auto-layout
 
 # polybar
 exec_always ~/.config/polybar/launch.sh &
+
+# notif
+# exec_always --no-startup-id dunst
