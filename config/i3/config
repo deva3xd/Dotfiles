@@ -198,7 +198,7 @@ gaps inner 2
 gaps outer 2
 
 # set desktop background
-exec_always feh --bg-fill ~/Pictures/samurai-girl.jpg
+exec_always feh --bg-fill ~/Pictures/wp.jpg
 
 # class                 border  bground text    indicator child_border
 client.focused          #ffffff #403c64 #ffffff #ffffff   #ffffff
@@ -215,10 +215,10 @@ bindsym $mod+shift+x exec i3lock-fancy
 bindsym $mod+p exec --no-startup-id flameshot gui
 
 # layout
-exec_always --no-startup-id i3-auto-layout
+exec --no-startup-id i3-auto-layout
 
 # polybar
 exec_always ~/.config/polybar/launch.sh &
 
 # notif
-# exec_always --no-startup-id dunst
+exec --no-startup-id dunst
