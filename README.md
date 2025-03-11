@@ -4,9 +4,6 @@
 #### Desktop
 ![Desktop](https://github.com/deva3xd/config/blob/main/screenshot/desktop.png?raw=true)
 
-#### Firefox
-![Polybar](https://github.com/deva3xd/config/blob/main/screenshot/firefox.png?raw=true)
-
 ## Package
 
 - polybar
