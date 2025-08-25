@@ -1,11 +1,5 @@
-If all your bars have ipc enabled, you can use
-polybar-msg cmd quit
-# Otherwise you can use the nuclear option:
-# killall -q polybar
+#!/bin/bash
 
-# Launch bar1 and bar2
-echo "---" | tee -a /tmp/polybar1.log
-polybar bar 2>&1 | tee -a /tmp/polybar1.log &
-disown
-
-echo "Bars launched..."
+polybar-msg cmd quit || killall -q polybar
+sleep 1
+polybar bar >> /tmp/polybar.log 2>&1 & disown
