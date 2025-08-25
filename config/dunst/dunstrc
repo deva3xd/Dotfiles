@@ -19,7 +19,7 @@
     origin = bottom-right
 
     # Offset from the origin
-    offset = (30, 30)
+    offset = (25, 25)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -78,7 +78,7 @@
     always_run_script = true
     title = Dunst
     class = Dunst
-    corner_radius = 7
+    corner_radius = false
     corners = all
     ignore_dbusclose = false
 
