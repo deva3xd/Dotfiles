@@ -70,7 +70,7 @@ ZSH_THEME="nicoulaj"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,13 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias php="/opt/lampp/bin/php"
-alias composer="/opt/lampp/bin/php /opt/lampp/bin/composer"
-export TERM=alacritty
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-
+alias composer="/opt/lampp/bin/php /opt/lampp/bin/composer.phar"
 alias startlampp='sudo /opt/lampp/lampp start'
+alias stoplampp='sudo /opt/lampp/lampp stop'
+alias statuslampp='sudo /opt/lampp/lampp status'
