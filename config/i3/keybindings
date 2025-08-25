@@ -1,0 +1,68 @@
+ = windows key
+
+# start alacritty-terminal
++Return 
+
+# kill focused window
++Shift+q
+
+# application menu (rofi)
++d
+
+# exit menu (rofi):
++Shift+e
+
+# lock screen
++l
+
+# reload configuration file
++Shift+c
+
+# restart i3 inplace
++Shift+r
+
+# keybinding in rofi (automated)
+F1
+
+# switch between workspaces
++Tab workspace next
++Shift+Tab workspace prev
+
+# change window focus
++j focus left
+
+# alternatively, use the cursor keys
++Left focus left
++Down focus down
++Up focus up
++Right focus right
+
+# move a focused window
++Shift+j move left
++Shift+k move down
++Shift+b move up
++Shift+o move right
+
+# alternatively, use the cursor keys
++Shift+Left move left
++Shift+Down move down
++Shift+Up move up
++Shift+Right move right
+
+# enter fullscreen mode for the focused container
++f fullscreen toggle
+
+# change container layout
++e layout toggle split
+
+# toggle tiling / floating
++Shift+space floating toggle
+
+# resize floating window
++right mouse button
+
+# screenshot (flameshot)
++p
+
+# empty workspace
++Shift+m
