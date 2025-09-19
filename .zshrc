@@ -106,5 +106,5 @@ source $ZSH/oh-my-zsh.sh
 alias php="/opt/lampp/bin/php"
 alias composer="/opt/lampp/bin/php /opt/lampp/bin/composer.phar"
 alias startlampp='sudo /opt/lampp/lampp start'
-alias stoplampp='sudo /opt/lampp/lampp stop'
-alias statuslampp='sudo /opt/lampp/lampp status'
+alias startpostgres='sudo -iu postgres psql'
+alias startpgadmin4='source pgadmin4/bin/activate; pgadmin4'
