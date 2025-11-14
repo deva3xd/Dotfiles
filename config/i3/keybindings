@@ -1,41 +1,40 @@
+i3wm Keybindings
+
+For reference consult our WIKI:
+https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
+
  = windows key
 
-# start alacritty-terminal
+# start xfce4-terminal
 +Return 
 
 # kill focused window
-+Shift+q
++q
 
-# application menu (rofi)
+# Application menu search by typing (fancy Rofi menu)
 +d
 
-# exit menu (rofi):
+# fancy exit-menu on bottom right:
 +Shift+e
 
-# lock screen
+# lock the system
 +l
 
-# reload configuration file
+# reload the configuration file
 +Shift+c
 
-# restart i3 inplace
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 +Shift+r
 
-# keybinding in rofi (automated)
+# keybinding in fancy rofi (automated)
 F1
-
-# switch between workspaces
-+Tab workspace next
-+Shift+Tab workspace prev
 
 # change window focus
 +j focus left
 
-# alternatively, use the cursor keys
-+Left focus left
-+Down focus down
-+Up focus up
-+Right focus right
+# switch workspace
++Left switch prev
++Right switch next
 
 # move a focused window
 +Shift+j move left
@@ -43,7 +42,7 @@ F1
 +Shift+b move up
 +Shift+o move right
 
-# alternatively, use the cursor keys
+# alternatively, you can use the cursor keys
 +Shift+Left move left
 +Shift+Down move down
 +Shift+Up move up
@@ -58,11 +57,9 @@ F1
 # toggle tiling / floating
 +Shift+space floating toggle
 
+# change focus between tiling / floating windows
++space focus mode_toggle
+
 # resize floating window
 +right mouse button
 
-# screenshot (flameshot)
-+p
-
-# empty workspace
-+Shift+m
