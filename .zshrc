@@ -103,8 +103,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias php="/opt/lampp/bin/php"
-alias composer="/opt/lampp/bin/php /opt/lampp/bin/composer.phar"
 alias startlampp='sudo /opt/lampp/lampp start'
 alias startpostgres='sudo -iu postgres psql'
 alias startpgadmin4='source pgadmin4/bin/activate; pgadmin4'
+alias setbrightness='xrandr --output LVDS-1 --brightness'
+alias startas='./Documents/audiosource run'
+
+# pnpm
+export PNPM_HOME="/home/raved/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
+# laravel
+export PATH="/opt/lampp/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"

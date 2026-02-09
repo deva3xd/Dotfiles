@@ -36,4 +36,10 @@ git clone https://github.com/deva3xd/Dotfiles.git
 
 - Firefox: https://github.com/cascadefox/cascade/tree/main
 - Polybar: https://github.com/adi1090x/polybar-themes.git
-- Wallpaper: https://github.com/gh0stzk/dotfiles/tree/master
+- Wallpaper:
+    - https://github.com/gh0stzk/dotfiles/tree/master
+    - https://wall.alphacoders.com/
+
+## You have problems during installation
+
+Report issues or we can chat on discord (username: deva3xd)
