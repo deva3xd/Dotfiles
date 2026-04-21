@@ -30,11 +30,14 @@ https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
 F1
 
 # change window focus
-+j focus left
++i focus up || +Up
++m focus down || +Down
++j focus left || +Left
++k focus right || +Right
 
 # switch workspace
-+Left switch prev
-+Right switch next
++Tab switch prev
++w switch next
 
 # move a focused window
 +Shift+j move left
@@ -53,6 +56,7 @@ F1
 
 # change container layout
 +e layout toggle split
++s layout tabbed
 
 # toggle tiling / floating
 +Shift+space floating toggle

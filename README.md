@@ -9,7 +9,6 @@
 - polybar
 - feh
 - rofi
-- autotiling
 - i3lock-fancy (i3lock)
 - noto-fonts-cjk-vf (optional)
 
