@@ -5,19 +5,19 @@ https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
 
  = windows key
 
-# start xfce4-terminal
+# start terminal
 +Return 
 
 # kill focused window
-+q
++Shift+q
 
-# Application menu search by typing (fancy Rofi menu)
+# application menu (rofi)
 +d
 
-# fancy exit-menu on bottom right:
+# logout
 +Shift+e
 
-# lock the system
+# lock system
 +l
 
 # reload the configuration file
@@ -26,26 +26,17 @@ https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 +Shift+r
 
-# keybinding in fancy rofi (automated)
-F1
-
 # change window focus
-+i focus up || +Up
-+m focus down || +Down
-+j focus left || +Left
-+k focus right || +Right
++Up
++Down
++Left
++Right
 
 # switch workspace
 +Tab switch prev
 +w switch next
 
-# move a focused window
-+Shift+j move left
-+Shift+k move down
-+Shift+b move up
-+Shift+o move right
-
-# alternatively, you can use the cursor keys
+# move focused window
 +Shift+Left move left
 +Shift+Down move down
 +Shift+Up move up
@@ -55,14 +46,18 @@ F1
 +f fullscreen toggle
 
 # change container layout
++s layout stacking
++t layout tabbed
 +e layout toggle split
-+s layout tabbed
 
 # toggle tiling / floating
 +Shift+space floating toggle
 
 # change focus between tiling / floating windows
 +space focus mode_toggle
+
+#resize
++r
 
 # resize floating window
 +right mouse button
